@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  border: 1px solid blue;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid orange;
+  width: 50%;
+  height: 200px;
+}
+
+.hero-title {
+  position: relative;
+}
+
+.jan3-button {
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+}
