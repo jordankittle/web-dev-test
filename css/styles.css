@@ -1,7 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 .main {
   display: flex;
   border: 1px solid blue;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .hero {
@@ -9,16 +18,16 @@
   align-items: center;
   justify-content: center;
   border: 1px solid orange;
+  height: 50%;
   width: 50%;
-  height: 200px;
 }
 
-.hero-title {
+.title {
   position: relative;
+  font-size: 54px;
 }
 
 .jan3-button {
-  width: 200px;
   height: 50px;
   font-size: 14px;
 }
